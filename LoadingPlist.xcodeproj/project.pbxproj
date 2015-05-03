@@ -424,6 +424,7 @@
 				8909754D1AF5DE5200D7411F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8909754E1AF5DE5200D7411F /* Build configuration list for PBXNativeTarget "LoadingPlistTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +433,7 @@
 				890975501AF5DE5200D7411F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -46,11 +46,16 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     
+    UIImage *myImage = [UIImage imageNamed:@"DemoCellImage"];
+    [cell.imageView setImage:myImage];
+    
     if (indexPath.section == 0) {
         cell.textLabel.text = justCourseNames[indexPath.row];
+        cell.detailTextLabel.text = courseDetails[justCourseNames[indexPath.row]];
     }
     else {
         cell.textLabel.text = webCourseNames[indexPath.row];
+        cell.detailTextLabel.text = webCourseDetails[webCourseNames[indexPath.row]];
     }
     
     return cell;
